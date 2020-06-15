@@ -1,0 +1,297 @@
+body{
+  text-align: center;
+  font-family: 'Sriracha', cursive;
+  background-color: #003049;
+}
+
+h1 {
+  font-size: 36px;
+  color: #003049;
+}
+
+h2{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 26px;
+}
+
+p{
+  font-size: 24px;
+}
+
+ul{
+  text-align: center;
+}
+
+h2, h3, p, ul{
+  color: #003049;
+}
+
+.nom_site{
+  font-size: 36px;
+}
+
+.introduction{
+  /*background-color: #D62828;*/
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/books.jpg");
+  padding: 50px;
+  height: 650px;
+}
+
+.bio{
+  color: #FCBF49;
+  font-size: 34px;
+  padding: 15px;
+}
+
+.texte_bio{
+  color: #EAE2B7;
+  font-size: 24px;
+}
+
+
+.profil{
+  border-radius: 50%;
+  height: 300px;
+  border:5px solid;
+  border-color: #003049;
+  box-shadow: 10px 10px 10px black;
+}
+
+
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-light {
+  height: 5px;
+  width: 25%;
+  background: #EAE2B7;
+}
+
+.line-medium {
+  height: 5px;
+  width: 35%;
+  background: #FCBF49;
+}
+
+.line-hard {
+  height: 5px;
+  width: 40%;
+  background: #F77F00;
+}
+
+.nom_site{
+  color: #EAE2B7;
+}
+
+.logo {
+  height: 60px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.logo_rs{
+  height: 40px;
+  margin: 20px;
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #003049;
+}
+
+.liens {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 26px;
+  font-family: 'Sriracha', cursive;
+}
+
+.lien {
+  margin: 10px 20px;
+  color: #EAE2B7;
+}
+
+.lien:hover {
+  color: #D62828;
+}
+
+.romans{
+  margin: 30px;
+}
+
+.liste_romans{
+  padding: 30px;
+  background-color: #EAE2B7;
+  border: 5px solid ;
+  border-color: #FCBF49;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px black;
+}
+
+.titre_romans{
+  padding: 15px;
+}
+
+.liste{
+  font-size: 32px;
+}
+
+.oeil{
+  background-color: #EAE2B7;
+  border: 5px solid ;
+  border-color: #F77F00;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px black;
+  padding:50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.saga{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.isis, .nephtys{
+  padding: 25px;
+}
+
+.isis{
+  margin-right: 20px;
+  height: 900px;
+}
+
+.isis_photo{
+  height: 400px;
+  border-radius: 30px;
+}
+
+.nephtys{
+  margin-left: 20px;
+  height: 900px;
+}
+
+.nephtys_photo{
+  height: 400px;
+  border-radius: 30px;
+}
+
+.titre_tome{
+ padding-top: 30px;
+ padding-bottom:20px;
+}
+
+.resume{
+ /*padding: 15px;*/
+}
+
+
+.fleau{
+  padding: 30px;
+  background-color: #EAE2B7;
+  border: 5px solid ;
+  border-color: #D62828;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px black;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.roman_fleau{
+padding-right: 30px;
+padding-left: 30px;
+text-align: center;
+width:50%;
+}
+
+.texte_fleau{
+  padding: 20px;
+}
+
+.fleau_photo{
+height: 550px;
+border-radius: 30px;
+}
+
+.roman_fleau, .fleau_photo{
+  margin: 15px;
+  padding: 20px;
+}
+
+.my-btn{
+  background:#EAE2B7;
+  color: #003049;
+  border: 4px solid;
+  border-color: #D62828;
+  padding:10px;
+  border-radius: 15px;
+}
+
+.my-btn:hover{
+  background-color: #003049;
+  color: #EAE2B7;
+}
+
+.video_maps{
+  background-color: #EAE2B7;
+  border: 5px solid ;
+  border-color: #FCBF49;
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px black;
+  padding:50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.integree_maps{
+  border-radius: 30px;
+  padding-top: 30px;
+}
+
+/*Ui Components*/
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}

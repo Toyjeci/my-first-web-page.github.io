@@ -1,12 +1,188 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>My first web page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Toyjeci.Books</title>
+	<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
 
-  <h1>My first web page</h1>
+ <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
 
+ <div class="my-navbar">
+    <img src="images/logo_toyjeci.png" class="logo">
+    <h1 class="nom_site">TOYJECI.BOOKS</h1>
+
+    <div class="liens">
+      <a href="#biographie" class="lien">Qui suis-je ?</a>
+      <a href="#romans" class="lien">Mes Romans</a>
+      <a href="mailto:pauline.melin@efap.com" class="lien">Contact</a>
+      <a href="https://www.wattpad.com/user/Toyjeci" target="_blank"><img src="images/wattpad.png" class="logo_rs"></a>
+      <a href="https://www.instagram.com/toyjeci.books/?hl=fr" target="_blank"><img src="images/instagram.png" class="logo_rs"></a>
+    </div>
+  </div>
+
+   <div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+
+
+<div class="introduction"> 
+	<img src="images/profil.png" class="profil">
+	<h1 id="biographie" class="bio">Qui suis-je ?</h1>
+	<p class="texte_bio">D'aussi loin que je me souvienne, inventer des histoire a touours été naturel pour moi. C'était une activité qui me berçait dans ma jeunesse et qui a pris de l'ampleur au fil des ans.
+	<br>
+	Tenir un stylo et laisser les mots s'échapper de mon esprit est un véritable exutoire pour moi. J'aime pouvoir partager mon univers et faire découvrir mes personnages ainsi que leur évolution.
+	<br> 
+	S'il y a une source d'inspiration qui est intarissable, c'est bien l'Histoire. J'ai trouvé dans l'Antiquité une véritable malle au trésor qui me permet de forger mes romans.</p>
+	</div>
+
+	<div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+<div class="romans">
+<div class="liste_romans">
+<h1 id="romans" class="titre_romans"><i class="fas fa-pen-fancy"></i> Mes romans</h1>
+<div class="liste d-flex justify-content-center">
+<ul class=" text-left">
+	<li>Sous l'oeil d'Oudjât, Tome 1 : L'appel du pouvoir</li>
+	<li>Sous l'oeil d'Oudjât, Tome 2 : La force du pardon</li>
+	<li>Le Fléau d'Égypte</li>
+</ul></div></div>
+
+
+<div class="oeil">
+<h1><i class="fas fa-book-open"></i> Sous l'oeil d'Oudjât</h1>
+<div class="saga">
+<div class="isis">
+<a href="https://www.wattpad.com/story/99258476-sous-l%27oeil-d%27oudj%C3%A2t-tome-1-l%27appel-du-pouvoir"  target="_blank"><img src="images/couverture_isis.jpg" class="isis_photo"></a>
+<h2 class="titre_tome">Tome 1 : L'appel du pouvoir</h2>
+<p class="resume"><b>221 av. JC.</b> 
+<br>
+Depuis le coup d'État orchestré par son frère, Isis est prise au piège de son propre palais. Refusant de lui accorder la moindre légitimité, le relation est plus conflictuelle que jamais. Décidée à reprendre sa vie en main, la princesse décide de s'enfuir. Si quitter l'Égypte lui semble être une bonne idée au premier abord, son bâteau fera naufrage avant d'avoir pu atteindre Byzance. 
+<br>
+Elle va devoir apprendre à vivre et à se battre. Se battre pour ce en quoi elle croit. Se battre pour se forger la place qui lui revient de droit.</p>
+</div>
+
+
+<div class="nephtys">
+<a href="https://www.wattpad.com/story/163970156-sous-l%27oeil-d%27oudj%C3%A2t-tome-2-la-force-du-pardon"  target="_blank"> <img src="images/couverture_nephtys.jpg" class="nephtys_photo"></a>
+<h2 class="titre_tome">Tome 2 : La force du pardon</h2>
+<p class="resume"><b>218 av JC</b>
+<br>
+Le conflit entre empires Lagide et Séleucide semble ravivé. Nephtys, princesse égyptienne et sœur du nouveau pharaon, se retrouve contrainte de partir loin de son Alexandrie nouvellement retrouvée.  Dans un pays qui n'est pas le sien, avec un fiancé qui ne veut pas plus d'elle qu'elle ne veut de lui. Elle devra faire preuve d'ingéniosité pour un jour retrouver les siens. 
+<br>
+Partagée entre fierté et mariage arrangé, saura-t-elle faire le bon choix?</p>
+</div></div>
+
+      <button type="button" class="btn btn-warning btn-outline-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">
+        En savoir plus
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h3 class="modal_titre">Sous l'oeil d'Oudjât</h3>
+              <p>C'est une trilogie historique qui se passe durant la quatrième guerre de Syrie. Les deux premiers tomes sont disponibles sur Wattpad. Il vous suffit de cliquer sur les couvertures.</p>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
+
+
+<div class="fleau">
+<div class="roman_fleau">
+<h1>Le Fléau d'Égypte <i class="fas fa-book-open"></i></h1>
+<div class="texte_fleau">
+<p>Quand Isis ouvre les yeux, c'est dans la morgue de Nicosie. Sans aucun souvenir... mais qui peut-elle bien être ? 
+<br>
+Lui semble le savoir. S'il n'était pas parti, elle aurait pu en savoir plus.</p>
+<p>
+Quinze ans plus tard, Isis s'est formée et est devenue médecin légiste. Grâce à un programme de réinsertion, elle est envoyée sur la petite île d'Héliopolis. Accueillie par Billie, elle apprend à connaître les lieux ainsi que ses habitants. Au premier abord, tout semble on ne plus normal, mais la réalité s'avère être tout autre.</p>
+<p>
+Entre souvenirs oubliés et croyances d'un autre temps, Isis va devoir faire le point sur cette nouvelle vie. Et la réapparition de son inconnu est loin de lui faciliter la tâche.</p></div>
+<br>
+<a href="https://www.wattpad.com/story/147423723-le-fl%C3%A9au-d%27egypte" target="_blank" class="my-btn">Lire maintenant</a>
+</div>
+<a href="https://www.wattpad.com/story/147423723-le-fl%C3%A9au-d%27egypte" target="_blank"><img src="images/couverture_fleau.jpg" class="fleau_photo"></a>
+</div></div>
+
+<div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+<div class="typeform-widget" data-url="https://form.typeform.com/to/cGKp0x" style="width: 100%; height: 500px;"></div>  
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=cGKp0x&utm_source=typeform.com-01E95D2SCFF4PZ240FTPDHEVD9-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+
+<div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+<div class="video_maps">
+
+	<div class="video">
+	<h1 class="titre_video"><i class="fas fa-video"></i> Un aperçu du travail en vidéo !</h1>
+	<a href=""></a>
+	</div>
+
+    <div class="maps">
+	<h1 class="titre_maps">Où me trouver ? <i class="fas fa-map-marker-alt"></i></h1>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2827.8796949702883!2d-0.5514459850731571!3d44.86474388126306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55289473c8ca65%3A0xee466a9aa1ee3bf1!2s6%20Rue%20Achard%2C%2033300%20Bordeaux!5e0!3m2!1sfr!2sfr!4v1592210696333!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="integree_maps"></iframe>
+	</div>
+
+</div>
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="https://www.instagram.com/toyjeci.books/?hl=fr" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/Toyjeci" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.linkedin.com/in/pauline-melin-34a84a173/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    Toyjeci<i class="fas fa-heart"></i>Books
+  </div>
+</div>
+
+<div class="line-transparent">
+    <div class="line-hard"></div>
+    <div class="line-medium"></div>
+    <div class="line-light"></div>
+  </div>
+
+
+	<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+	
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-</html>
