@@ -18,7 +18,7 @@ h3{
 }
 
 p{
-  font-size: 24px;
+  font-size: 21px;
 }
 
 ul{
@@ -48,7 +48,7 @@ h2, h3, p, ul{
 
 .texte_bio{
   color: #EAE2B7;
-  font-size: 24px;
+  font-size: 21px;
 }
 
 
@@ -142,7 +142,7 @@ h2, h3, p, ul{
 }
 
 .liste{
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .oeil{
@@ -271,7 +271,7 @@ border-radius: 30px;
 .integree_video{
   border-radius: 30px;
   padding-top: 30px;
-  
+
 }
 
 /*Ui Components*/
